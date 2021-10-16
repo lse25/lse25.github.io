@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 200px 0 100px 0;
+    background-image: url(https://bithouse.id/storage/2021/06/8-april-asset-renovasi-bithouse-c972e568c7-extralarge.png);
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+ 
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 3px;
+    color: #7b797c;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .about {
+    background-color: #151b5a;
+    
+  }
+  
+  .contact {
+    background-color: #0c55f1;
+    margin-left: 30px;
+  }
+
+  .btn {
+    margin-top:30px;
+    padding: 10px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 30px;
+    text-align: center;
+    
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(15, 67, 97);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 15px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(231, 241, 248);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color:  rgba(255, 255, 255, 0.3);
+    text-decoration: underline;
+  }
+
+  .home{
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #e5eaf1;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #2f2d30;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .lesson h6{
+    font-size: 20px;
+    color: #2f2d30;
+  }
+
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #7b797c;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #062049c2;
+    cursor: pointer;
+    box-shadow: 0 7px #081444;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  .footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    background-color: #dadbdb;
+    height:200px;
+  }
+
+  .top-footer{
+    float: left;
+    width: 350px;
+    padding-left: 60px;
+  }
+
+  .top-footer img{
+    width: 125px;
+    padding-bottom: 10px;
+  }
+
+  .top-footer p{
+    font-size: 11px;
+    color: #636263;
+    line-height: 15px;
+  }
+
+  .footer h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer span{
+    line-height: 30px;
+    font-size: 15px;
+  }
+
+  .hubungi h2{
+    padding-bottom: 0;
+  }
+
+  .hubungi{
+    float: left;
+    padding-right: 120px;
+    padding-left: 80px;
+    opacity: 0.7;
+  }
+
+  .alamat{
+    opacity: 0.7;
+    float: left;
+    padding-right: 100px;
+  }
+
+  .link{
+    opacity: 0.7;
+    float: left;
+  }
+
+ 
+
+
